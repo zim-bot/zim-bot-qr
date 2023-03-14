@@ -1,0 +1,24 @@
+{
+  "name": "zimbot",
+  "version": "4.0.1",
+  "description": "A multi functional whatsapp bot Qr-Code Scanner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "chalk": "^4.1.2",
+    "pastebin-js": "^1.0.6",
+    "path": "^0.12.7",
+    "pino": "^8.1.0",
+    "qrcode-terminal": "latest",
+    "child_process":"latest",
+    "request": "^2.88.2",
+    "fs-extra":"latest"
+  }
+}
