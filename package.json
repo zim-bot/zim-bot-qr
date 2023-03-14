@@ -13,6 +13,7 @@
     "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "chalk": "^4.1.2",
+    "drips-memes": "^6.0.4",
     "pastebin-js": "^1.0.6",
     "path": "^0.12.7",
     "pino": "^8.1.0",
