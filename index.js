@@ -27,7 +27,7 @@ let qrcode = require("qrcode-terminal");
 const path = require('path');
 const fs = require("fs-extra");
 const Drips = require('drips-memes')
-const { color } = require('./tuna/color')
+const { color,bgcolor} = require('./tuna/color')
 const { default: makeWASocket, useMultiFileAuthState, Browsers, delay, makeInMemoryStore, } = require("@adiwajshing/baileys");
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 async function BlessedTuna() {
