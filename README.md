@@ -7,7 +7,7 @@ git clone https://github.com/zim-bot/zim-bot-qr
 
 cd zim-bot-qr
 
-yarn
+npm install
 
 node index.js
 ```
